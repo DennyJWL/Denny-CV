@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Denny's CV</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="bg"></div>
+    <header>
+      <nav class="navbar navbar-light bg-transparent fixed-top js-navbar">
+        <div class="container">
+          <a class="navbar-brand border border-5 border-light pe-3 ps-3 text-light fs-3" href="#">Denny's CV</a>
+          <button class="toggler js-toggler navbar-toggler navbar-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end bg-secondary bg-gradient" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title fs-3" id="offcanvasNavbarLabel">Denny's CV</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item mb-2">
+                  <a class="nav-link active h4" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a class="nav-link active h4" aria-current="page" href="#quote">Quote</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a class="nav-link active h4" aria-current="page" href="#skill">Skill</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a class="nav-link active h4" aria-current="page" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a class="nav-link active h4" aria-current="page" href="#work">My work</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a class="nav-link active h4" aria-current="page" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div>
+        <img class="graphic_1" src="./images/parallax_graphic/iconmonstr-star-lined-240.png" alt="">
+        <div class="hero d-flex align-items-center">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-12 col-md-7 wow bounceInLeft">
+                <h1 class="text-white mb-4">HELLO<br>I'm Denny</h1>
+                <a class="text-light" 
+                  href="#contact"><button class="btn btn-primary rounded-pill btn-lg col-4 fs-4">contact</button></a>
+              </div>
+              <div class="hero-img d-none d-md-block col-md-4">
+                <div class="img-box p-2 border border-3">
+                  <img class="w-100" src="./images/IMG_8520.jpg" alt="">
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="quote" class="quote bg-white pt-3 pb-5 lean-bg--top">
+        <img class="graphic_2" src="./images/parallax_graphic/iconmonstr-pentagon-lined-240.png" alt="">
+        <div class="container">
+          <div class="quoto__content text-center wow fadeInUp" data-wow-delay="0.2s">
+            <div class="quoto__icon bg-secondary d-inline-block p-3 fs-4 rounded-circle text-white mb-4">
+              <i class="icon-quote-right"></i>
+            </div>
+            <p class="quoto__text col-md-6 offset-md-3 fs-5 lh-lg mb-4">
+              你好，我是林靖惟，今年26歲<br>國立新竹教育大學 體育系 畢業<br>非本科的我在今年選擇離開原本球隊教練的工作，<br>目前全職學習前端知識，透過hohow及六角學院的課程<br>讓我有能力做出一些靜態網頁作品，<br>往後會繼續學習JavaScript及其框架。
+            </p>
+            <div class="quoto__name fs-5"><span class="text-secondary">Denny - </span>from Xinbei, Taiwan</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="skill" class="skill bg-white pt-4 pb-6 mb-10 lean-bg--bottom">
+        <div class="container">
+          <div class="skill-group">
+            <h2 class="fs-1 text-center mb-6 wow fadeInUp" data-wow-delay="0.2s">SKILL</h2>
+            <div class="row justify-content-around">
+              <div class="col-11 col-md-5">
+                <div class="card p-3 ps-4 h-75 shadow-lg border-0 mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="card-img bg-white shadow-lg p-1 d-flex justify-content-center align-items-center">
+                    <img class="h-75" src="./images/skill_icon/html-icon.png" alt="">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-primary fs-4">HTML</h5>
+                    <p class="card-text">具備網站架設的基本知識、撰寫邏輯及命名規則等，並能自己架設個人網站。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-11 col-md-5">
+                <div class="card p-3 ps-4 h-75 shadow-lg border-0 mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="card-img bg-white shadow-lg p-1 d-flex justify-content-center align-items-center">
+                    <img class="h-75" src="./images/skill_icon/css-icon.png" alt="">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-primary fs-4">CSS</h5>
+                    <p class="card-text">運用選擇器及jQuery函式庫插件製作各種視覺體驗，並使用Sass預處理器管理CSS。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-11 col-md-5">
+                <div class="card p-3 ps-4 h-75 shadow-lg border-0 mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="card-img bg-white shadow-lg p-2 d-flex justify-content-center align-items-center">
+                    <img class="h-75" src="./images/skill_icon/Bootstrap_logo.svg.png" alt="">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-primary fs-4">Bootstrap</h5>
+                    <p class="card-text">熟悉Bootstrap5來快速開發網站，同時規劃RWD響應式網頁。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-11 col-md-5">
+                <div class="card p-3 ps-4 h-75 shadow-lg border-0 mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="card-img bg-white shadow-lg p-1 d-flex justify-content-center align-items-center">
+                    <img class="h-75" src="./images/skill_icon/jquery-10-1175155.webp" alt="">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-primary fs-4">jQuery</h5>
+                    <p class="card-text">能運用多項插件來做網頁效果，會寫一些簡單的動畫或事件監聽指令。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-11 col-md-5">
+                <div class="card p-3 ps-4 h-75 shadow-lg border-0 mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="card-img bg-white shadow-lg d-flex justify-content-center align-items-center">
+                    <img class="h-100" src="./images/skill_icon/Ei-sc-github.svg.png" alt="">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-primary fs-4">GitHub</h5>
+                    <p class="card-text">透過GitHub來佈署網站及Git版本控制與團隊協作，了解Git Flow工作流程。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div id="experience" class="experience container mb-10">
+
+        <h2 class="fs-1 text-center mb-6 text-light wow fadeInUp" data-wow-delay="0.2s">EXPERIENCE</h2>
+        <div class="timeline-group">
+          <div class="timeline bg-primary h-100"></div>
+          <div class="timeline-card__row">
+            <div class="timeline-card card mb-4 p-2 wow fadeInUp" data-wow-delay="0.2s">
+              <div class="card-body">
+                <h5 class="card-title mb-4"><strong>新竹教育大學畢業 (2015~2019)</strong></h5>
+                <p class="card-text">在大學時期就任職於新竹舊社國小當桌球隊教練，畢業後就繼續任職。</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-card__row">
+            <div class="timeline-card card mb-4 p-2 wow fadeInUp" data-wow-delay="0.2s">
+              <div class="card-body">
+                <h5 class="card-title mb-4"><strong>新竹舊社國小桌球隊 (2019~2022/5)</strong></h5>
+                <p class="card-text">在這三年間不斷省思自己想要的是什麼後，決定在今年過年假期開始學習前端技術，在5月底決定離職，毅然決然投入前端領域!!</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-card__row">
+            <div class="timeline-card card p-2 wow fadeInUp" data-wow-delay="0.2s">
+              <div class="card-body">
+                <h5 class="card-title mb-4"><strong>全職學習前端技術 (2022/6~now)</strong></h5>
+                <p class="card-text">目前在前端路上有半年左右，我的第一個線上課程是在hohow學的，透過實作讓我第一次打code不會那麼害怕，後來有買了六角學院的課程，六角將知識點切碎讓我快速學會Sass、flex跟Git、GitHub，往後也會繼續加強前端技術，學習技能樹上的其他知識。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="work" class="work bg-white pt-4 pb-7 mb-10 lean-bg--top lean-bg--bottom">
+        <img class="graphic_3" src="./images/parallax_graphic/iconmonstr-3d-lined-240.png" alt="">
+        <div class="container">
+          <h2 class="fs-1 text-center mb-6 wow fadeInUp" data-wow-delay="0.2s">MY WORKS</h2>
+          <div class="card border-0 mb-6 shadow-lg wow fadeInUp" data-wow-delay="0.2s">
+            <div class="row g-0 align-items-center">
+              <div class="col-md-6 overflow-hidden">
+                <a href="https://dennyjwl.github.io/hohow-fullpage/#4thPage"><img class="work-img w-100" src="./images/fullpage.png" class="img-fluid rounded-start" alt=""></a>
+              </div>
+              <div class="col-md-6">
+                <div class="card-body ms-5 pe-6">
+                  <h5 class="card-title h3 text-primary mb-3">Hohow work</h5>
+                  <p class="card-text">這是在hohow跟著老師一起切的第一個fullpage網站，跟著老師一步步切出網頁讓我可以從中學到很多小技巧，也是我學習路上的一頁。</p>
+                  <p class="card-text"><small class="text-muted">The first fullpage website</small></p>
+                  <a class="view link-secondary" href="https://dennyjwl.github.io/hohow-fullpage/#4thPage" target="_blank">View project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0 mb-6 shadow-lg wow fadeInUp" data-wow-delay="0.2s">
+            <div class="row g-0 align-items-center flex-row-reverse">
+              <div class="col-md-7 overflow-hidden">
+                <a href="https://dennyjwl.github.io/chatTalker/index.html"><img class="work-img w-100" src="./images/chatTalker.png" class="img-fluid rounded-start" alt=""></a>
+              </div>
+              <div class="col-md-5">
+                <div class="card-body text-end me-5 ps-5">
+                  <h5 class="card-title h3 text-primary mb-3">Hexschool work</h5>
+                  <p class="card-text">這是在六角學院體驗營中的切版任務二，自己邊看設計稿邊切，雖然只有兩頁加上RWD，但審核通過時帶給我的是滿滿的成就感，也是我繼續往前的動力!!</p>
+                  <p class="card-text"><small class="text-muted">Full of achievement</small></p>
+                  <a class="view link-secondary" href="https://dennyjwl.github.io/chatTalker/index.html" target="_blank">View project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0 mb-6 shadow-lg wow fadeInUp" data-wow-delay="0.2s">
+            <div class="row g-0 align-items-center">
+              <div class=" col-md-5 overflow-hidden">
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal" href=""><img class="work-img w-100" src="./images/【公益程式體驗營】擺脫動亂學前端， 掌握技能保平安_獎狀.png" class="img-fluid rounded-start" alt=""></a>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img class="w-100" src="./images/【公益程式體驗營】擺脫動亂學前端， 掌握技能保平安_獎狀.png" class="rounded-start" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card-body ms-5">
+                  <h5 class="card-title h3 text-primary mb-3">Certificate</h5>
+                  <p class="card-text ms-6">在六角學院體驗營的通關證書，了解基礎切版知識、Sass預處理器管理CSS，透過GitHub來佈署網站及Git版本控制與團隊協作，獨自做完所有切版任務，具備實作經驗。</p>
+                  <p class="card-text ms-6"><small class="text-muted">Have practical experience</small></p>
+                  <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="view link-secondary ms-6 card-text" href="" target="_blank">View picture</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact" class="contact mb-6">
+        <img class="graphic_4" src="./images/parallax_graphic/iconmonstr-circle-filled-240.png" alt="">
+        <div class="container">
+          <h2 class="fs-1 text-center mb-6 text-light wow fadeInUp" data-wow-delay="0.2s">CONTACT</h2>
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+              <form action="" class="mb-6">
+                <div class="input-group mb-3 wow fadeInUp" data-wow-delay="0.2s">
+                  <label for="name" class="form-label w-100 h5 text-white mb-2">Name</label>
+                  <input type="text" class="form-control border-3 rounded-start border-primary bg-transparent" id="exampleFormControlInput1" placeholder="first name">
+                  <input type="text" class="form-control border-3 border-primary bg-transparent" id="exampleFormControlInput1" placeholder="last name">
+                </div>
+                <div class="row">
+                  <div class="col-12 col-sm-6">
+                    <div class="input-group mb-3 wow fadeInUp" data-wow-delay="0.2s">
+                      <label for="name" class="form-label w-100 h5 text-white mb-2">Phone</label>
+                      <input type="tel" class="form-control border-3 rounded-start border-primary bg-transparent" id="exampleFormControlInput1" placeholder="09xx-xxx-xxx">
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="input-group mb-3">
+                      <label for="name" class="form-label w-100 h5 text-white mb-2">Email</label>
+                      <input type="email" class="form-control border-3 rounded-start border-primary bg-transparent" id="exampleFormControlInput1" placeholder="xxx@gmail.com">
+                    </div>
+                  </div>
+                </div>
+                <div class="input-group mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                  <label for="name" class="form-label w-100 h5 text-white mb-2">Message</label>
+                  <textarea id="" class="form-control border-3 border-primary bg-transparent" rows="4"></textarea>
+                </div>
+                <div class="text-center wow fadeInUp" data-wow-delay="0.2s">
+                  <button type="submit" class="btn btn-primary rounded-pill col-4 fs-4">send</button>
+                </div>
+              </form>
+              <div class="info text-center fs-3 text-primary">
+                <div class="mb-2 wow fadeInUp" data-wow-delay="0.2s">
+                  <a href="mailTo:denny851229123@gmail.com" class="info__email text-break ">denny851229123@gmail.com</a></div>
+                <div class="mb-3 wow fadeInUp" data-wow-delay="0.2s">
+                  <a href="tel:0921286867" class="info__phone ">0921286867</a>
+                </div>
+                <div class="info__icon wow fadeInUp" data-wow-delay="0.2s">
+                  <a href="" class="icon-btn d-inline-block"><i class="icon-instagram-1"></i></a>
+                  <a href="" class="icon-btn d-inline-block"><i class="icon-facebook-rect"></i></a>
+                  <a href="" class="icon-btn d-inline-block"><i class="icon-mail-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container">
+      <div class="row justify-content-center text-center text-white mb-4">
+        <div class="col-12 col-md-8">
+          <p class="final-text lh-lg">感謝您看到這邊，這是我的個人CV，如有任何問題歡迎用信箱聯繫我 :)<br>祝您有個美好的一天！</p>
+          <p class="copyright">Copyright © 2022 Denny web design</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  
+  
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./JS/jQuery.js"></script>
+  <script src="./JS/wow.min.js"></script>
+  <script src="./JS/all.js"></script>
+</body>
+</html>
