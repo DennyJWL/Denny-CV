@@ -1,2 +1,2 @@
 # Denny-CV
-https://dennyjwl.github.io/Denny-CV/index.html
+https://dennyjwl.github.io/Denny-CV/
